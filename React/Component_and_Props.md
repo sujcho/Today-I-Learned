@@ -18,3 +18,28 @@ class Welcome extends React.Component {
 }
 ```
 위의 두 정의는 React개념상으로는 같은 의미이다.
+
+##Component 구성하기
+컴포넌트는 출력에서 ​​다른 구성 요소를 참조 할 수 있고 이를 통해 모든 세부 수준에서 동일한 컴포넌트 추상화를 사용할 수 있다. React 앱에서는 버튼, 폼, 대화 상자, 화면 등 모든 것이 일반적으로 컴포넌트로 표현된다.
+```javascript
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
+
+function App() {
+  return (
+    <div>
+      <Welcome name="Sara" />
+      <Welcome name="Cahal" />
+      <Welcome name="Edite" />
+    </div>
+  );
+}
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+```
+여기서보면 props는 부모로부터 값을 넘겨받을 수 있는 매개체이다.
+모든 React 컴포넌트는 props과 관련하여 pure 함수처럼 작동해야한다.
