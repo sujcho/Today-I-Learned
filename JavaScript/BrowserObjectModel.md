@@ -31,7 +31,7 @@ topFrame이라는 윈도우 또는 프레임이 있으면 url을 거기에 로�
            onclick="openWindows('http://www.yahoo.com/', '_self')" /></p>
 </body>
 </html>
-``
+```
 팝업으로 열고싶은 경우에는 아래와 같이 사이즈를 지정해준다.
 ```javascript
 window.open(“http://www.wrox.com/”,”wroxWindow”,“height=400,width=400,top=10,left=10,resizable=yes”);
