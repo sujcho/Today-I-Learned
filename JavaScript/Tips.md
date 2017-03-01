@@ -15,3 +15,6 @@ What is progressive web application??
 - 후진 방법 : setInterval 로 프레임을 계속 부르면서 안에서 position의 값을 1씩 바꿔준다.
 - 더 나은 방법 : css로 하는 데 translate를 사용한다.
 - 또다른 방법 : 자바스크릅트 + css 사용하기
+
+#html에서 name 프로퍼티가 필요한 이유
+id가 있는 데 왜 name이 굳이 필요한가. form을 submit할때는 name이 서버로 보내진다.
