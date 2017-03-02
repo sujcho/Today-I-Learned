@@ -18,3 +18,11 @@ What is progressive web application??
 
 #html에서 name 프로퍼티가 필요한 이유
 id가 있는 데 왜 name이 굳이 필요한가. form을 submit할때는 name이 서버로 보내진다.
+
+#파일을 deploy할때
+자바스크립트파일들을 minify하거나 어그리파잉한다. UI를 빌드해주는 툴이 있다: grunt.
+https://gruntjs.com
+gulp
+https://gulpjs.com
+karma: 테스팅 툴
+https://karma-runner.github.io
