@@ -110,3 +110,5 @@ var myForm = document.forms[“form2”]; //get the form with a name of “form2
 요즘은 유저가 서밋할때가지 기다리지 않고, 유저가 인풋을 넣자마자 체크하는 게 트렌드.
 주로 발생하는 이벤트 : tab out, key up/key down
 요즘은 인풋체크 같은 경우는 html5에서 많이 해준다. 예전에는 자바스크립트로 많이 한다.
+
+폼을 서버로 서밋하는 방법은 버튼을 사용하는 데 onClick, onSubmit , 또는 폼을 클리어할 때 onReset 할 수 있다.
