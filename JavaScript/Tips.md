@@ -26,3 +26,11 @@ gulp
 https://gulpjs.com
 karma: 테스팅 툴
 https://karma-runner.github.io
+
+#알고리듬 문제 풀 때 중요한 것
+-  Time Complexity
+-  Space Complexity : memory
+-  Generic : 깨끗하며 확장가능함
+
+#레귤러 익스프레션
+http://www.regular-expressions.info/
