@@ -1,8 +1,10 @@
 from (http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.WObJ71MrJE4)
-#Basic Concept
+
+# Basic Concept
+>>>>>>> origin/master
 테스트 용어에서 모의 ​​(mock)는 다른 (더 복잡한) 객체의 동작을 시뮬레이트하는 객체입니다. 라이브러리의 객체를 테스트 할 때 객체가 연결할 다른 시스템에 액세스 할 때가끔 필요하지만 몇 가지 이유 때문에 실제로 실행하도록 강요하고 싶지는 않습니다.
 
-##mock object
+## mock object
 라이브러리를 import 한다.
 ```python
 from unittest import mock
@@ -20,7 +22,7 @@ m = mock.Mock()
 
 이해할 수 있듯이 이러한 객체는 예외를 발생시키지 않고 API를 노출 할 수 있기 때문에 다른 객체 또는 시스템을 모방하는 완벽한 도구입니다. 그러나 테스트에서 사용하려면 원본과 똑같이 행동해야합니다. 이는 원래 값을 반환하거나 작업을 수행한다는 의미입니다.
 
-##Return value
+## Return value
 모의 (mock)이 할 수있는 가장 간단한 일은 호출 할 때마다 주어진 값을 반환하는 것입니다. 이것은 mock 객체의 return_value 속성을 설정하도록 구성되어 있습니다.
 ```python
 m.some_attribute.return_value = 42
@@ -39,7 +41,7 @@ m.some_attribute()
 ```
 여러분이 볼 수 있듯이 some_attribute ()를 호출하면 return_value에 저장된 값, 즉 함수 자체가 반환됩니다. 함수에서 오는 값을 반환하려면 side_effect라는 mock 객체의 약간 더 복잡한 속성을 사용해야합니다.
 
-##Side effect
+## Side effect
 모의 객체의 side_effect 매개 변수는 매우 강력한 도구입니다. 객체, 호출 가능, 반복 가능 및 예외의 세 가지 유형을 허용하고 이에 따라 동작을 변경합니다.
 예외를 전달하면 모의 객체가 예외를 발생시킵니다.
 ```python
@@ -84,8 +86,8 @@ StopIteration
 >>> m.some_attribute.side_effect(5)
 Number: 5
 ```
-#Testing with mocks
-##Testing types
+# Testing with mocks
+## Testing types
 Incoming queries (assertion on result)
 Incoming commands (assertion on direct public side effects)
 Outgoing commands (expectation on call and arguments)
