@@ -1,4 +1,4 @@
-from http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.WObJ71MrJE4
+from (http://blog.thedigitalcatonline.com/blog/2016/03/06/python-mocks-a-gentle-introduction-part-1/#.WObJ71MrJE4)
 #Basic Concept
 테스트 용어에서 모의 ​​(mock)는 다른 (더 복잡한) 객체의 동작을 시뮬레이트하는 객체입니다. 라이브러리의 객체를 테스트 할 때 객체가 연결할 다른 시스템에 액세스 할 때가끔 필요하지만 몇 가지 이유 때문에 실제로 실행하도록 강요하고 싶지는 않습니다.
 
