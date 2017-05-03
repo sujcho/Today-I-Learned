@@ -41,3 +41,10 @@ stores inode and file name
 
 # ..
 parent directory
+
+# dup
+duplicate fd
+
+# getting inode information
+stat() : 아이노드 정보
+lastat() : 심볼릭 링크 정보
