@@ -1,2 +1,4 @@
 # Today-I-Learned
-A place to keep track of what I learned today to keep learning everyday.
+> I value learning. This is a place to keep track of what I learned today to keep learning everyday.
+
+## Categories
